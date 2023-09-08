@@ -1,11 +1,11 @@
 package com.github.UlrikeWerner.Entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.With;
+import lombok.*;
 
 @Data
+@RequiredArgsConstructor
 @AllArgsConstructor
+@Builder
 public class Student {
     private final String studentId;
     @With
