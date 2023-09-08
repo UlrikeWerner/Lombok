@@ -21,3 +21,17 @@ Schritt 6: Prüft in der "Main"-Klasse ob die generierten Lombok Methoden korrek
 Schritt 1: Fügt zu allen Entitäten das Builder Pattern hinzu und erstellt in der main-Methode mit dem Builder weitere Objekte.
 
 Schritt 2: Nutzt die With-Annotation um das ändern von Eigenschaften zu erleichtern.
+
+### Bonus
+
+- Finde herraus was die Lombok Annotation @Value macht und nutze diese für die Klasse Course.
+
+- Erstelle einen Record University mit den folgenden Attributen: id, name, courses.
+
+- Erstelle eine Klasse UniversityService und implementiere dort folgende Methoden:
+
+- Schreibe eine Funktion um die Durschnittsnote eines Courses zu berechnen(Übergebt den Course als Parameter).
+
+- Schreibe eine Funktion um die Durschschnittsnote der ganzen Universität zu berechnen(Übergebe ein Universitäts-Objekt als Parameter).
+
+- Schreibe eine Funktion die aus einer Universität alle Schüler mit mindestens der Note 2/"Gut" raussucht und als Liste zurück gibt(Übergebt ein Universitäts-Objekt als Parameter).
