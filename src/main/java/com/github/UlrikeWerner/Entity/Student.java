@@ -7,7 +7,7 @@ import lombok.With;
 @Data
 @AllArgsConstructor
 public class Student {
-    private final String id;
+    private final String studentId;
     @With
     private final String firstName;
     @With

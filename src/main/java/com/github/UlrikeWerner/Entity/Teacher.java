@@ -1,9 +1,16 @@
 package com.github.UlrikeWerner.Entity;
 
+import lombok.With;
+
+import java.util.List;
+
 public record Teacher(
-        String id,
+        String teacherId,
+        @With
         String firstName,
+        @With
         String lastName,
-        String[] subjects
+        @With
+        List<String> subjects
 ) {
 }
