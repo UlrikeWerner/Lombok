@@ -45,9 +45,7 @@ public class Main {
         System.out.println(tGayer);
 
         System.out.println("--------------------");
-        Course cSport2 = new Course("2GradeSport123", "Weitsprung");
-        cSport2.setTeacher(tFuchs);
-        cSport2.setStudents(List.of(sKlaus, sLisaFeldmann));
+        Course cSport2 = new Course("2GradeSport123", "Weitsprung", tFuchs, List.of(sKlaus, sLisaFeldmann));
         System.out.println(cSport2);
 
         System.out.println("--------------------");

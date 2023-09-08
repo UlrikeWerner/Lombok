@@ -2,18 +2,16 @@ package com.github.UlrikeWerner.Entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.Value;
 
 import java.util.List;
 
-@Data
-@RequiredArgsConstructor
 @AllArgsConstructor
 @Builder
+@Value
 public class Course {
-    private final String courseId;
-    private final String courseName;
-    private Teacher teacher;
-    private List<Student> students;
+    String courseId;
+    String courseName;
+    Teacher teacher;
+    List<Student> students;
 }
