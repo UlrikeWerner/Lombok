@@ -15,3 +15,9 @@ Schritt 4.5: Verwendet die passenden Lombok-Annotationen, um Getter, Setter, Equ
 Schritt 5: Schreibt eine "Main"-Klasse, in der ihr einige Beispiele für das Erstellen von Students, Teachers und Courses mit den Konstruktoren anwendet.
 
 Schritt 6: Prüft in der "Main"-Klasse ob die generierten Lombok Methoden korrekt funktionieren(getter, setter, toString,...).
+
+### weitere Aufgabe
+
+Schritt 1: Fügt zu allen Entitäten das Builder Pattern hinzu und erstellt in der main-Methode mit dem Builder weitere Objekte.
+
+Schritt 2: Nutzt die With-Annotation um das ändern von Eigenschaften zu erleichtern.
